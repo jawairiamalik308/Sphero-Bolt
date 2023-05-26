@@ -2,5 +2,11 @@
 //Date: 5/26/23
 //program: Competition 
 
-
-
+async function startProgram()
+{
+    setStabilization(true) 
+	
+	await roll(0, 50, 3.5)
+	
+	setMainLed({ r: 0, g: 0, b: 100 })
+} 
