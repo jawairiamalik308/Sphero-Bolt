@@ -1,12 +1,30 @@
 //programmer: Jawairia Malik 
 //Date: 5/26/23
 //program: Competition 
+//Sphero Bolt NUMBER: SB - B2F8   
 
 async function startProgram()
 {
     setStabilization(true) 
 	
-	await roll(0, 50, 3.5)
+	await roll(0, 44, 3.5)
 	
 	setMainLed({ r: 0, g: 0, b: 100 })
+	
+	//await spin(180, 2 ) 
+	
+	//await roll(0, 25, 3.5)
+	
+	//await spin (180, 1)
+	
+	//await roll(0,45, 5)
+	
+	//await Sound.Category.Soundname.play()
+	
 } 
+
+
+
+
+
+
