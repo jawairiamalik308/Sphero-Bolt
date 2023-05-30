@@ -7,19 +7,13 @@ async function startProgram()
 {
     setStabilization(true) 
 	
-	await roll(0, 44, 3.5)
+	await roll(0, 30, 5)
+	setMainLed({ r: 0, g: 0, b: 255 })
 	
-	setMainLed({ r: 0, g: 0, b: 100 })
-	
-	//await spin(180, 2 ) 
-	
-	//await roll(0, 25, 3.5)
-	
-	//await spin (180, 1)
-	
-	//await roll(0,45, 5)
-	
-	//await Sound.Category.Soundname.play()
+	await roll(90, 30, 5)
+	await roll(180, 10, 5)
+
+
 	
 } 
 
